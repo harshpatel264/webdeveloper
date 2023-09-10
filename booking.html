@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>booking page</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      background-image:url('rk3.jpg');
+      background-size:cover;
+      font-family: , sans-serif;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+    }
+
+    .login-container {
+      background-color: rgba(210, 212, 209, 0.8);
+      padding: 20px;
+      width: 300px;
+      text-align: center;
+    }
+    
+div {
+      margin : 20px;
+    }
+
+   input {
+      width: 100%;
+      padding: 10px;
+      border: 1px solid #ccc;
+      border-radius: 3px;
+      text-align: center;
+    }
+
+    .login-button {
+      background-color: #3498db;
+      color: #fff;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 3px;
+      cursor: pointer;
+    }
+
+    .login-button:hover {
+      background-color: #2980b9;
+    }
+  </style>
+</head>
+<body>
+  <div class="login-container">
+    <h1>booking page</h1>
+    <br><br>
+    <form>
+      
+        <label for="username">Username:</label>
+        <input type="text" id="username" name="username" required>
+      
+        <label for="date">date:</label>
+        <input type="date" id="date" name="date" required>
+      
+      
+        <label for="people">people:</label>
+        <input type="radio" id="people" name="people" value="500-700" required>500-700
+        <input type="radio" id="people" name="people" value="1000-1200" required>1000-1200
+        <input type="radio" id="people" name="people" value="1500-1700" required>1500-1700
+        <input type="radio" id="people" name="people" value="2000+" required>2000+  <br><br>     
+
+     <input type="submit" value="login" class="login-button">
+    </form>
+  </div>
+</body>
+</html>
